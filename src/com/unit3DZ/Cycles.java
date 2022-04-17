@@ -103,7 +103,8 @@ public class Cycles {
     }
 
     public static void vclad() {
-        int sumvclada, kolvomesac, sumprozent=0, vcladitog ;
+        int sumvclada, kolvomesac, sumprozent=0;
+                float vcladitog;
         Scanner sumvclada1 = new Scanner(System.in);
         Scanner kolvomesac1 = new Scanner(System.in);
         System.out.println("Введите сумму вклада: ");
